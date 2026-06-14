@@ -1,6 +1,6 @@
 # Template file for 'brave-browser-nightly'
 pkgname=brave-browser-nightly
-version=1.91.33
+version=1.93.64
 revision=1
 #build_style=gnu-configure
 hostmakedepends="tar xz"
@@ -9,7 +9,7 @@ maintainer="Caio Assis <cassis.santos@proton.me>"
 license="MPL-2.0"
 homepage="https://brave.com"
 distfiles="https://github.com/brave/brave-browser/releases/download/v${version}/brave-browser-nightly_${version}_amd64.deb"
-checksum=7335d7b1e4df0a02c34ec0781f0d90474fffdf60c362eb36d9aaea4a58b25fd7
+checksum=cdf0a459e2c4fceed40a4b841cc7a259468e38cbe0b59e607d656abe5e66edfb
 nostrip=yes
 _only_for_archs="x86_64"
 
