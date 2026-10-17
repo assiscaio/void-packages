@@ -1,6 +1,6 @@
 # Template file for 'git-pages-cli'
 pkgname=git-pages-cli
-version=1.9.0
+version=1.11.2
 revision=1
 build_style=go
 go_import_path="codeberg.org/git-pages/git-pages-cli"
@@ -10,7 +10,7 @@ maintainer="tranzystorekk <tranzystorek.io@protonmail.com>"
 license="0BSD"
 homepage="https://codeberg.org/git-pages/git-pages-cli"
 distfiles="https://codeberg.org/git-pages/git-pages-cli/archive/v${version}.tar.gz"
-checksum=d5253a17ae340b8d8d9afbfb84dde9ae1b63251cd2e195de5f69e6108ba43a81
+checksum=b8ea09ae492fb4dd854692b5c8bf0b3dd5a2414f7b5ddf1fb6a15f2a7da26b37
 
 post_install() {
 	vlicense LICENSE.txt
